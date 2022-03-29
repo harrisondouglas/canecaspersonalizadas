@@ -1,8 +1,8 @@
 
 :root{
-    --cinza: #F0F8FF;
+    --vermelho: #E50914;
     --preta: #141414;
-    --violeta:#FF00FF;
+   
 }
 *{
     margin: 0;
@@ -13,9 +13,9 @@
 /*elemento base*/
 
 body{
-  background: var(--cinza);
+  background: var(--preta);
   font-family: 'Arial', Times, serif;
-  color: black;
+  color: white;
 }
 
 
@@ -29,7 +29,7 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color:var(--violeta);
+    color:var(--vermelho);
     font-family:'Arial Black, times';
     font-size: 40px;   
 }
@@ -71,7 +71,7 @@ header nav a:hover{
     margin-top: 15%;
     margin-bottom: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-
+}
 .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
@@ -80,7 +80,7 @@ header nav a:hover{
     padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
-
+    
     cursor: pointer;
     transition: .3s ease all;
 }
@@ -101,5 +101,16 @@ header nav a:hover{
 
 .capa-principal{
     width: 70%;
+}
+
+.box-caneca{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel.canecas{
+    margin-top: 5px;
 }
 
